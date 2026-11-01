@@ -1,0 +1,21 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Backend build
+backend/target/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
